@@ -1,0 +1,12 @@
+version: '2'
+services:
+        ssr1:
+                image: ssr:v5
+                container_name: ssr_8080
+                ports:
+                       - '8080:8080'
+        ssr2:
+                image: ssr:v5
+                container_name: ssr_8081
+                ports:
+                       - '8081:8080'
